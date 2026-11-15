@@ -1,0 +1,36 @@
+{
+  "scope": "Offline regression checks against actual submitted ArchiMate XML and revised parser",
+  "caveat": "N3 mocks installed GNS3 templates; no live GNS3 server or device deployment tested",
+  "tests": [
+    {
+      "test": "Baseline",
+      "expected": "valid topology",
+      "observed": "accepted",
+      "nodes": 54,
+      "links": 53,
+      "pass": true
+    },
+    {
+      "test": "N1 missing endpoint",
+      "expected": "INVALID_ENDPOINT",
+      "observed": [
+        "INVALID_ENDPOINT: relationship id-5cf47953c8df441eb1b4566c7c7732e2 references nondeployable/missing endpoint(s): ['id-NONEXISTENT-TEST-ENDPOINT']"
+      ],
+      "pass": true
+    },
+    {
+      "test": "N2 insufficient ports",
+      "expected": "INSUFFICIENT_PORTS",
+      "observed": [
+        "INSUFFICIENT_PORTS: Switch 1 requires 17 physical connections but gns3_ports=16"
+      ],
+      "pass": true
+    },
+    {
+      "test": "N3 unavailable template",
+      "expected": "preflight failure",
+      "observed": "PRE-FLIGHT FAILED (mocked template inventory)",
+      "pass": true
+    }
+  ]
+}

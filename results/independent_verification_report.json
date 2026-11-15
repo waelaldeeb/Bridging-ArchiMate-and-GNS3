@@ -1,0 +1,45 @@
+{
+  "result": "PASS",
+  "scope": "Structural source-to-target comparison, not runtime configuration or traceability JSON validation",
+  "source_file": "/mnt/data/A2G-52 nodes(8).xml",
+  "gns3_file": "/mnt/data/A2G_AutoGen_20260928_005801(1).gns3",
+  "gns3_project_name": "A2G_AutoGen_20260928_005801",
+  "expected_nodes": 54,
+  "generated_nodes": 54,
+  "expected_physical_links": 53,
+  "generated_physical_links": 53,
+  "matched_node_names": 54,
+  "matched_link_endpoint_pairs": 53,
+  "missing_nodes": [],
+  "unexpected_nodes": [],
+  "missing_links": [],
+  "unexpected_links": [],
+  "invalid_link_endpoints": [],
+  "duplicate_interface_allocations": [],
+  "duplicate_normalized_names": [],
+  "dangling_source_associations": [],
+  "switch_port_checks": [
+    {
+      "name": "Switch2",
+      "source_ports": 24,
+      "generated_ports": 24,
+      "used_links": 17,
+      "capacity_sufficient": true
+    },
+    {
+      "name": "Switch1",
+      "source_ports": 24,
+      "generated_ports": 24,
+      "used_links": 17,
+      "capacity_sufficient": true
+    },
+    {
+      "name": "Switch3",
+      "source_ports": 24,
+      "generated_ports": 24,
+      "used_links": 17,
+      "capacity_sufficient": true
+    }
+  ],
+  "method": "Independent XML parsing and GNS3 JSON parsing; canonicalized device names and undirected endpoint multisets; no transformation code reused."
+}
