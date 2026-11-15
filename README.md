@@ -76,7 +76,7 @@ The default GNS3 server address is `http://localhost:3080`. Full topology genera
 Use the independent verification script to compare the ArchiMate XML source with the generated GNS3 project definition.
 
 ```bash
-python validation/independent_topology_verifier.py --help
+python validation/independent_topology_verifier.py "models/A2G-52 nodes(8).xml" "gns3/A2G_AutoGen_20260928_005801/A2G_AutoGen_20260928_005801.gns3" --out "results/verification_recheck.json"
 ```
 
 Refer to the script's supported command-line arguments and supply the paths to the ArchiMate XML and corresponding `.gns3` file.
