@@ -106,3 +106,5 @@ The `src/A2G_52_Traceability.py` implementation extends the transformation pipel
 The `results/A2G_AutoGen_20261029_065105_traceability.json` file contains the recorded mappings for the 54-node experiment, including 54 node records and 53 physical-link records.
 
 The traceability artifact was generated on 29 October 2026. It belongs to a separate GNS3 generation run from the previously published structural verification report. The two reports should not be interpreted as outputs of the same project instance.
+
+The corresponding generated GNS3 project definition is available at `gns3/A2G_AutoGen_20261029_065105.gns3`. The traceability report and this project belong to the same generation run. The recorded GNS3 identifiers were checked against the saved project definition, confirming correspondence for all 54 nodes and 53 physical links, including link endpoints. This verification concerns structural identifier correspondence and does not establish device-configuration or runtime security-policy fidelity.
