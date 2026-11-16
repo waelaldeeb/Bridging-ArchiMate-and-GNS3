@@ -1,0 +1,9 @@
+uBridge version 0.9.16 running with Npcap version 1.78, based on libpcap version 1.10.4
+Hypervisor TCP control server started (IP 127.0.0.1 port 52069).
+UDP tunnel connecting from local port 10001 to IPv4 addresss 192.168.154.137 on port 20003
+Ethernet interface \Device\NPF_{83091454-D76E-4C7C-B7DA-A1E10FAD97E3}
+Source NIO listener thread for 495d2628-50eb-400f-98c4-29a2f605189c-0 has started
+Destination NIO listener thread for 495d2628-50eb-400f-98c4-29a2f605189c-0 has started
+pcap_next_ex: The interface disappeared (error code ERROR_DEVICE_REMOVED/STATUS_DEVICE_REMOVED)
+recv: No error
+Destination NIO listener thread for 495d2628-50eb-400f-98c4-29a2f605189c-0 has stopped

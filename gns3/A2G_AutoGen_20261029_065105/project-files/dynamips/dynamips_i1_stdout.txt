@@ -1,0 +1,6 @@
+cygwin warning:
+  MS-DOS style path detected: D:\OneDrive\All - 1-11-2024\Desktop\My PhD\2026\GNS3 Work\Example 12 - 52 nodes\A2G_AutoGen_20261029_065105\project-files\dynamips
+  Preferred POSIX equivalent is: /cygdrive/d/OneDrive/All - 1-11-2024/Desktop/My PhD/2026/GNS3 Work/Example 12 - 52 nodes/A2G_AutoGen_20261029_065105/project-files/dynamips
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
