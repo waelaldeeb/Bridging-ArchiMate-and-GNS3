@@ -1,0 +1,919 @@
+{
+  "schema_version": "1.0",
+  "source_xml": "D:\\OneDrive\\All - 1-11-2024\\Desktop\\My PhD\\2026\\GNS3 Work\\Example 12 - 52 nodes\\A2G-52 nodes.xml",
+  "project_id": "27d41c8d-1a88-4706-ac8b-23bffdc1e8c9",
+  "project_name": "A2G_AutoGen_20261029_065105",
+  "generated_at": "2026-10-29T06:51:09.254169+02:00",
+  "nodes": [
+    {
+      "archimate_element_id": "id-44d04787e65b41dfb9eb0d9b8f61736d",
+      "archimate_name": "Router",
+      "gns3_node_id": "7b250ee0-87ee-4f85-8f26-f5f9cd306126",
+      "gns3_name": "Router",
+      "gns3_node_type": "dynamips"
+    },
+    {
+      "archimate_element_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_name": "Switch 2",
+      "gns3_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb",
+      "gns3_name": "Switch2",
+      "gns3_node_type": "ethernet_switch"
+    },
+    {
+      "archimate_element_id": "id-bdb9d039ad604965a269e1bf9bafb96a",
+      "archimate_name": "PC 18",
+      "gns3_node_id": "86d861ac-a46e-4d53-86fb-63e218852f37",
+      "gns3_name": "PC18",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-5d428a3c9080406eac4c11d1d91efba9",
+      "archimate_name": "PC 19",
+      "gns3_node_id": "9aa46e3b-6b32-4f6b-ab19-d0dd58aa9e36",
+      "gns3_name": "PC19",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-749327f59e504f8e8e7a302d43bf580e",
+      "archimate_name": "PC 17",
+      "gns3_node_id": "533a0f4a-aaa6-497e-89a8-74e9661768d4",
+      "gns3_name": "PC17",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-c3e0076cf9974981ac7310bc18d7b5cd",
+      "archimate_name": "NAT / Cloud",
+      "gns3_node_id": "495d2628-50eb-400f-98c4-29a2f605189c",
+      "gns3_name": "NAT/Cloud",
+      "gns3_node_type": "nat"
+    },
+    {
+      "archimate_element_id": "id-bfa3d573a29b4a11a4899b1daf32e146",
+      "archimate_name": "Firewall (pfSense)",
+      "gns3_node_id": "e3171257-a955-4e41-9262-da763e9dc2a2",
+      "gns3_name": "Firewall(pfSense)",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-8ac96c2559dc450d8211dae327b0c603",
+      "archimate_name": "PC 20",
+      "gns3_node_id": "634f1f61-b416-406d-bd3f-9d972fb7e8a2",
+      "gns3_name": "PC20",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-449c06ee50674c20830e7fa51e90443c",
+      "archimate_name": "PC 21",
+      "gns3_node_id": "0a19fc2c-7b72-4ffc-a037-fd0624f4f178",
+      "gns3_name": "PC21",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-14f8e766631f4e7488e6843a40702f3f",
+      "archimate_name": "PC 26",
+      "gns3_node_id": "94e8da06-8dd0-4e00-a8b4-29311b9c0314",
+      "gns3_name": "PC26",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-9f83b405d8ef48ad84f14ff2b071d97f",
+      "archimate_name": "PC 27",
+      "gns3_node_id": "a4efa73a-6dc5-4376-9075-09f684ad5a73",
+      "gns3_name": "PC27",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-215e7c01c9d14adb9a3f89bfee048f89",
+      "archimate_name": "PC 28",
+      "gns3_node_id": "bc3b3189-a4da-43cb-a5c7-fa32e6a95b53",
+      "gns3_name": "PC28",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-253adde349d7413fa6621fd7eb2f881f",
+      "archimate_name": "PC 30",
+      "gns3_node_id": "761e008e-3784-40c8-af6a-e5d223771c90",
+      "gns3_name": "PC30",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-6b4cbf49176d41b6bc90aadb8ed62eb0",
+      "archimate_name": "PC 24",
+      "gns3_node_id": "c43bb4fe-4029-4d19-a2c3-b0c1bc4a4149",
+      "gns3_name": "PC24",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-60561a211ec54afba13878e97ad7b8ae",
+      "archimate_name": "PC 32",
+      "gns3_node_id": "f25a9511-5e71-4677-8935-b61562519d3b",
+      "gns3_name": "PC32",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-45af1f4a1c5349cab4b20f85499c82b9",
+      "archimate_name": "PC 25",
+      "gns3_node_id": "e5e4956e-2ef6-446a-9b50-2e0c7312bec7",
+      "gns3_name": "PC25",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-e420fe2eeb0c46be8ccace40312315ab",
+      "archimate_name": "PC 29",
+      "gns3_node_id": "08e72313-df80-4745-b7a3-b1782ee353c0",
+      "gns3_name": "PC29",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-4f03a0fb67584cad999662ad7a956e29",
+      "archimate_name": "PC 31",
+      "gns3_node_id": "02314f1b-6b9f-4c14-aeeb-1d6ba1f1bf91",
+      "gns3_name": "PC31",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-cbc35a73662a495baefac62e7b260245",
+      "archimate_name": "PC 22",
+      "gns3_node_id": "bd39c857-36ce-4dc2-bd97-762a9ada2a0f",
+      "gns3_name": "PC22",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-ea3a9ca0866642b9a501deb4bdf89311",
+      "archimate_name": "PC 23",
+      "gns3_node_id": "2460eea2-e0a4-4bd8-881f-a621c0b03194",
+      "gns3_name": "PC23",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-98ce2814b95044649b0c8f61e848932c",
+      "archimate_name": "PC 03",
+      "gns3_node_id": "8ae80fcf-f571-4ae1-b335-9b07d133f4e4",
+      "gns3_name": "PC03",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-9ff3a08f4f774f05944ed0ff3ddfc63c",
+      "archimate_name": "PC 02",
+      "gns3_node_id": "3a511e39-f7ab-4f40-8107-59bb88c1fa65",
+      "gns3_name": "PC02",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-6f5aebc1ebfb46da8879b55f6e1db8a3",
+      "archimate_name": "PC 01",
+      "gns3_node_id": "79c900c5-a542-4d07-b010-dd91f90eefa1",
+      "gns3_name": "PC01",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-931b15b8c71249ef820f85f0e9c1a3f8",
+      "archimate_name": "PC 04",
+      "gns3_node_id": "053cd570-059c-4374-8d13-afbb0bd723bb",
+      "gns3_name": "PC04",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_name": "Switch 1",
+      "gns3_node_id": "182334da-b54d-4491-8c89-223ca8551ce3",
+      "gns3_name": "Switch1",
+      "gns3_node_type": "ethernet_switch"
+    },
+    {
+      "archimate_element_id": "id-17a6b29d3d164496a62ebea46a850dd8",
+      "archimate_name": "PC 08",
+      "gns3_node_id": "22c748ae-0f7a-4dec-9b13-3dd638b9daf2",
+      "gns3_name": "PC08",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-148f49ddcc0c4fa081962630b1bf30df",
+      "archimate_name": "PC 07",
+      "gns3_node_id": "d337da19-fcd8-4e4e-bcb6-f3a3355cab44",
+      "gns3_name": "PC07",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-b979c436d63841de94b0cf5c786fd5ef",
+      "archimate_name": "PC 06",
+      "gns3_node_id": "c78f5f23-0cd4-452e-bdbd-2f0a30f47fdf",
+      "gns3_name": "PC06",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-5fbb8376778744289f3ad1bc7be83254",
+      "archimate_name": "PC 05",
+      "gns3_node_id": "f494f06a-9560-4ad6-9d4e-92b4f4fe858f",
+      "gns3_name": "PC05",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-f9245796041b44818d98839bb0feda85",
+      "archimate_name": "PC 09",
+      "gns3_node_id": "b3ba0c7b-c2de-4fd2-8717-1c0c013dd643",
+      "gns3_name": "PC09",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-ac7b2a18df364984ab62a0f8a654e316",
+      "archimate_name": "PC 10",
+      "gns3_node_id": "51a45714-8a4d-4bf6-a80f-e9ed3ff79c74",
+      "gns3_name": "PC10",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-f6d7ff394e5b43fe89685d0cf6b1d640",
+      "archimate_name": "PC 11",
+      "gns3_node_id": "5748acc7-0549-47c5-971e-ea8dfa3c913b",
+      "gns3_name": "PC11",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-a7562315453149d091a24f8267786cce",
+      "archimate_name": "PC 12",
+      "gns3_node_id": "ff00fad1-3823-4b1e-8c95-80b19382f768",
+      "gns3_name": "PC12",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-464ecbec9ecc40fc9eb62c4faff2e81a",
+      "archimate_name": "PC 13",
+      "gns3_node_id": "3cc21d89-eca0-42cf-b037-563dd1cfca43",
+      "gns3_name": "PC13",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-db13067c5ab248898aeb95326e64821d",
+      "archimate_name": "PC 14",
+      "gns3_node_id": "0ccca965-6aeb-45c0-922c-ec8f91cb324a",
+      "gns3_name": "PC14",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-566a056340a040daaee39e47360038b3",
+      "archimate_name": "PC 15",
+      "gns3_node_id": "4ca8ec8b-3ee2-41c5-a83c-0dcf1783f769",
+      "gns3_name": "PC15",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-11d723626b794bcc9670914a67b8f1f4",
+      "archimate_name": "PC 16",
+      "gns3_node_id": "54807397-af42-4fa4-bed2-449bf0370012",
+      "gns3_name": "PC16",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-4fdfb13643c8489b9df203a78905d1ee",
+      "archimate_name": "PC 35",
+      "gns3_node_id": "8ce18bd9-ced0-4e03-88dd-678633b74388",
+      "gns3_name": "PC35",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-1ee943e18a7e4ce18ed1df6dd56391c5",
+      "archimate_name": "PC 34",
+      "gns3_node_id": "4d81eac8-7c1b-40ab-9b45-509168d21d07",
+      "gns3_name": "PC34",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-60bc90dd48434623a384c56164bd7cea",
+      "archimate_name": "PC 33",
+      "gns3_node_id": "550a8507-d487-4932-9e05-1a3db957e273",
+      "gns3_name": "PC33",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-e99654ed6a0c42da8256f96262958946",
+      "archimate_name": "PC 36",
+      "gns3_node_id": "3dc733b4-cd94-464e-a9e1-08c331aea160",
+      "gns3_name": "PC36",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_name": "Switch 3",
+      "gns3_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37",
+      "gns3_name": "Switch3",
+      "gns3_node_type": "ethernet_switch"
+    },
+    {
+      "archimate_element_id": "id-d41ed79b69fc48b5a0bd1c205ece30ee",
+      "archimate_name": "PC 40",
+      "gns3_node_id": "f314e2cc-4914-420f-8dd7-c37015f2ba06",
+      "gns3_name": "PC40",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-cee57af759cc404b931972b239d54715",
+      "archimate_name": "PC 39",
+      "gns3_node_id": "a2835b21-365d-4e2a-9cb6-506c085a4b87",
+      "gns3_name": "PC39",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-697dd789c78b4d3db52def595e0c3bd3",
+      "archimate_name": "PC 38",
+      "gns3_node_id": "cc0f7325-18d9-4de2-95e4-a8c597f1ed4b",
+      "gns3_name": "PC38",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-23c090f2acee42b18d74e42dd51b9b7d",
+      "archimate_name": "PC 37",
+      "gns3_node_id": "a5ed0ec9-a126-4d4e-bb17-8f96b3b21834",
+      "gns3_name": "PC37",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-4d289a2591ab40eeae4cbc3626a52009",
+      "archimate_name": "PC 41",
+      "gns3_node_id": "b3b78f13-10a0-401d-a228-548ad16f5b10",
+      "gns3_name": "PC41",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-68b7e5d4fcce44ab8a37d64d9051a679",
+      "archimate_name": "PC 42",
+      "gns3_node_id": "fcef9563-0880-4b9a-919f-cf9a48923df7",
+      "gns3_name": "PC42",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-57efffcd697445fe8ab9c87577dad5d0",
+      "archimate_name": "PC 43",
+      "gns3_node_id": "bafec976-a390-4e4c-9d77-cf2f679a3ba8",
+      "gns3_name": "PC43",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-4d0ede2356014f128d485ce6ce22ad4e",
+      "archimate_name": "PC 44",
+      "gns3_node_id": "1ba9e1a0-7010-4205-b087-d4846747c79b",
+      "gns3_name": "PC44",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-c24e904ba30f4932b03cf6f069449ccf",
+      "archimate_name": "PC 45",
+      "gns3_node_id": "b7f2f307-cd4f-4c66-8540-958674b7b69e",
+      "gns3_name": "PC45",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-78b7c03ef1b1429e84d386fd318d3e1c",
+      "archimate_name": "PC 46",
+      "gns3_node_id": "591ddf0e-74ed-4842-8e2f-2fcba5799628",
+      "gns3_name": "PC46",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-4ba60edf7d8843019c593624c64095a0",
+      "archimate_name": "PC 47",
+      "gns3_node_id": "cf46d3c5-abd2-4316-a58d-65bf773c3494",
+      "gns3_name": "PC47",
+      "gns3_node_type": "qemu"
+    },
+    {
+      "archimate_element_id": "id-97f618dbe661496093409e117002f57a",
+      "archimate_name": "PC 48",
+      "gns3_node_id": "3c79107c-2cfc-421e-a19d-ac570bf9b927",
+      "gns3_name": "PC48",
+      "gns3_node_type": "qemu"
+    }
+  ],
+  "links": [
+    {
+      "archimate_relationship_id": "id-5cf47953c8df441eb1b4566c7c7732e2",
+      "archimate_source_id": "id-44d04787e65b41dfb9eb0d9b8f61736d",
+      "archimate_target_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_source_name": "Router",
+      "archimate_target_name": "Switch 2",
+      "gns3_link_id": "566bf929-ec9f-49d4-a441-5cce48790c2c",
+      "gns3_source_node_id": "7b250ee0-87ee-4f85-8f26-f5f9cd306126",
+      "gns3_target_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb"
+    },
+    {
+      "archimate_relationship_id": "id-2928ada901504bb3bf074decc1d28b6d",
+      "archimate_source_id": "id-c3e0076cf9974981ac7310bc18d7b5cd",
+      "archimate_target_id": "id-bfa3d573a29b4a11a4899b1daf32e146",
+      "archimate_source_name": "NAT / Cloud",
+      "archimate_target_name": "Firewall (pfSense)",
+      "gns3_link_id": "eca5ee51-0997-4fe7-93b2-eadfc10af09e",
+      "gns3_source_node_id": "495d2628-50eb-400f-98c4-29a2f605189c",
+      "gns3_target_node_id": "e3171257-a955-4e41-9262-da763e9dc2a2"
+    },
+    {
+      "archimate_relationship_id": "id-6b16bcd02a6a4db0b9edcf9724266870",
+      "archimate_source_id": "id-bfa3d573a29b4a11a4899b1daf32e146",
+      "archimate_target_id": "id-44d04787e65b41dfb9eb0d9b8f61736d",
+      "archimate_source_name": "Firewall (pfSense)",
+      "archimate_target_name": "Router",
+      "gns3_link_id": "c09b85af-9a88-46fc-a407-7126df2f1d60",
+      "gns3_source_node_id": "e3171257-a955-4e41-9262-da763e9dc2a2",
+      "gns3_target_node_id": "7b250ee0-87ee-4f85-8f26-f5f9cd306126"
+    },
+    {
+      "archimate_relationship_id": "id-fed6518316c246a9bdcec6e9a1981336",
+      "archimate_source_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_target_id": "id-253adde349d7413fa6621fd7eb2f881f",
+      "archimate_source_name": "Switch 2",
+      "archimate_target_name": "PC 30",
+      "gns3_link_id": "b5b27609-f107-4849-babe-61eee71f3caf",
+      "gns3_source_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb",
+      "gns3_target_node_id": "761e008e-3784-40c8-af6a-e5d223771c90"
+    },
+    {
+      "archimate_relationship_id": "id-8d811b54c53b497cad270ca76cb5d8d8",
+      "archimate_source_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_target_id": "id-e420fe2eeb0c46be8ccace40312315ab",
+      "archimate_source_name": "Switch 2",
+      "archimate_target_name": "PC 29",
+      "gns3_link_id": "b0960134-197b-4a44-9221-6585950517f0",
+      "gns3_source_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb",
+      "gns3_target_node_id": "08e72313-df80-4745-b7a3-b1782ee353c0"
+    },
+    {
+      "archimate_relationship_id": "id-a7c41ce4687b42b5baab994631471e4a",
+      "archimate_source_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_target_id": "id-215e7c01c9d14adb9a3f89bfee048f89",
+      "archimate_source_name": "Switch 2",
+      "archimate_target_name": "PC 28",
+      "gns3_link_id": "07fb4aa3-13fc-49c3-90d3-4c63282c6c1d",
+      "gns3_source_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb",
+      "gns3_target_node_id": "bc3b3189-a4da-43cb-a5c7-fa32e6a95b53"
+    },
+    {
+      "archimate_relationship_id": "id-f52b04293a4843908c3602734cf67889",
+      "archimate_source_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_target_id": "id-9f83b405d8ef48ad84f14ff2b071d97f",
+      "archimate_source_name": "Switch 2",
+      "archimate_target_name": "PC 27",
+      "gns3_link_id": "de1948b1-d696-4bd5-a0c0-3c524020f412",
+      "gns3_source_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb",
+      "gns3_target_node_id": "a4efa73a-6dc5-4376-9075-09f684ad5a73"
+    },
+    {
+      "archimate_relationship_id": "id-d12ca2e5714344fb88c2dfcbbc01101c",
+      "archimate_source_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_target_id": "id-14f8e766631f4e7488e6843a40702f3f",
+      "archimate_source_name": "Switch 2",
+      "archimate_target_name": "PC 26",
+      "gns3_link_id": "0298353d-b160-46f4-bfc8-f7570dff8e47",
+      "gns3_source_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb",
+      "gns3_target_node_id": "94e8da06-8dd0-4e00-a8b4-29311b9c0314"
+    },
+    {
+      "archimate_relationship_id": "id-c2d8df6791c14cd495b17a9bdbc3adc6",
+      "archimate_source_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_target_id": "id-60561a211ec54afba13878e97ad7b8ae",
+      "archimate_source_name": "Switch 2",
+      "archimate_target_name": "PC 32",
+      "gns3_link_id": "2f403153-97a0-4be6-9e9f-71be0a3bb899",
+      "gns3_source_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb",
+      "gns3_target_node_id": "f25a9511-5e71-4677-8935-b61562519d3b"
+    },
+    {
+      "archimate_relationship_id": "id-b05c66aaa69245cbadc3cc2cc616a7d3",
+      "archimate_source_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_target_id": "id-4f03a0fb67584cad999662ad7a956e29",
+      "archimate_source_name": "Switch 2",
+      "archimate_target_name": "PC 31",
+      "gns3_link_id": "c1f9f8b1-c2d8-4fbc-bc6a-2641c42cba49",
+      "gns3_source_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb",
+      "gns3_target_node_id": "02314f1b-6b9f-4c14-aeeb-1d6ba1f1bf91"
+    },
+    {
+      "archimate_relationship_id": "id-6bed251f2f464c1e987b1b92dc7658ec",
+      "archimate_source_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_target_id": "id-8ac96c2559dc450d8211dae327b0c603",
+      "archimate_source_name": "Switch 2",
+      "archimate_target_name": "PC 20",
+      "gns3_link_id": "ba36f0ec-b45b-49a1-98ea-eca56d22cfe7",
+      "gns3_source_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb",
+      "gns3_target_node_id": "634f1f61-b416-406d-bd3f-9d972fb7e8a2"
+    },
+    {
+      "archimate_relationship_id": "id-32966cf6517b43b5bbef44eb58b7c156",
+      "archimate_source_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_target_id": "id-449c06ee50674c20830e7fa51e90443c",
+      "archimate_source_name": "Switch 2",
+      "archimate_target_name": "PC 21",
+      "gns3_link_id": "9ddd9cc8-594b-4f62-8096-4ba36219da80",
+      "gns3_source_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb",
+      "gns3_target_node_id": "0a19fc2c-7b72-4ffc-a037-fd0624f4f178"
+    },
+    {
+      "archimate_relationship_id": "id-779d46523cbb47b2be64208562bd120b",
+      "archimate_source_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_target_id": "id-ea3a9ca0866642b9a501deb4bdf89311",
+      "archimate_source_name": "Switch 2",
+      "archimate_target_name": "PC 23",
+      "gns3_link_id": "268b2a11-16e5-454e-9b32-527e8e4a981b",
+      "gns3_source_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb",
+      "gns3_target_node_id": "2460eea2-e0a4-4bd8-881f-a621c0b03194"
+    },
+    {
+      "archimate_relationship_id": "id-70bcef80be6b41e9b1a4831a25cb2f4a",
+      "archimate_source_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_target_id": "id-45af1f4a1c5349cab4b20f85499c82b9",
+      "archimate_source_name": "Switch 2",
+      "archimate_target_name": "PC 25",
+      "gns3_link_id": "a44302f4-cf82-4ad7-a943-c42171213f42",
+      "gns3_source_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb",
+      "gns3_target_node_id": "e5e4956e-2ef6-446a-9b50-2e0c7312bec7"
+    },
+    {
+      "archimate_relationship_id": "id-8cb0242755184940aface5e6027142be",
+      "archimate_source_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_target_id": "id-6b4cbf49176d41b6bc90aadb8ed62eb0",
+      "archimate_source_name": "Switch 2",
+      "archimate_target_name": "PC 24",
+      "gns3_link_id": "9a2306de-1616-4585-ba51-2684286c49fa",
+      "gns3_source_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb",
+      "gns3_target_node_id": "c43bb4fe-4029-4d19-a2c3-b0c1bc4a4149"
+    },
+    {
+      "archimate_relationship_id": "id-024997410e0d4cf484b8aab524d276ca",
+      "archimate_source_id": "id-5d428a3c9080406eac4c11d1d91efba9",
+      "archimate_target_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_source_name": "PC 19",
+      "archimate_target_name": "Switch 2",
+      "gns3_link_id": "a45bd620-007e-4974-8029-5149c0967c7e",
+      "gns3_source_node_id": "9aa46e3b-6b32-4f6b-ab19-d0dd58aa9e36",
+      "gns3_target_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb"
+    },
+    {
+      "archimate_relationship_id": "id-e6e5d3c8bb364577ad7d7a55c0f9c9eb",
+      "archimate_source_id": "id-bdb9d039ad604965a269e1bf9bafb96a",
+      "archimate_target_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_source_name": "PC 18",
+      "archimate_target_name": "Switch 2",
+      "gns3_link_id": "2a70e6cb-c4c9-4136-a180-d3018abc20da",
+      "gns3_source_node_id": "86d861ac-a46e-4d53-86fb-63e218852f37",
+      "gns3_target_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb"
+    },
+    {
+      "archimate_relationship_id": "id-c31d904496804380b78617c316d0b2f4",
+      "archimate_source_id": "id-749327f59e504f8e8e7a302d43bf580e",
+      "archimate_target_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_source_name": "PC 17",
+      "archimate_target_name": "Switch 2",
+      "gns3_link_id": "a6daa427-467c-4001-b749-93ed39270b65",
+      "gns3_source_node_id": "533a0f4a-aaa6-497e-89a8-74e9661768d4",
+      "gns3_target_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb"
+    },
+    {
+      "archimate_relationship_id": "id-e4a528c9d45149c8aacb7aa82400c2b6",
+      "archimate_source_id": "id-cbc35a73662a495baefac62e7b260245",
+      "archimate_target_id": "id-b16dbc552ff1478885b59fb1d58723ef",
+      "archimate_source_name": "PC 22",
+      "archimate_target_name": "Switch 2",
+      "gns3_link_id": "d111fbb7-bbe3-4536-9741-ae725157be30",
+      "gns3_source_node_id": "bd39c857-36ce-4dc2-bd97-762a9ada2a0f",
+      "gns3_target_node_id": "70e68d93-6ccf-4d36-aa85-b8ab4db262bb"
+    },
+    {
+      "archimate_relationship_id": "id-12d141bc633f4f959647cabe0806c17a",
+      "archimate_source_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_target_id": "id-566a056340a040daaee39e47360038b3",
+      "archimate_source_name": "Switch 1",
+      "archimate_target_name": "PC 15",
+      "gns3_link_id": "02efb51f-aebe-4492-bc0b-21094f5e4ce1",
+      "gns3_source_node_id": "182334da-b54d-4491-8c89-223ca8551ce3",
+      "gns3_target_node_id": "4ca8ec8b-3ee2-41c5-a83c-0dcf1783f769"
+    },
+    {
+      "archimate_relationship_id": "id-606adc762f044da2af8d96234ced6ec8",
+      "archimate_source_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_target_id": "id-5fbb8376778744289f3ad1bc7be83254",
+      "archimate_source_name": "Switch 1",
+      "archimate_target_name": "PC 05",
+      "gns3_link_id": "d4fb7725-585b-4ab7-8c46-70a7d75334d9",
+      "gns3_source_node_id": "182334da-b54d-4491-8c89-223ca8551ce3",
+      "gns3_target_node_id": "f494f06a-9560-4ad6-9d4e-92b4f4fe858f"
+    },
+    {
+      "archimate_relationship_id": "id-0d5629a8d6bb4650988f46cb11f4d78b",
+      "archimate_source_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_target_id": "id-a7562315453149d091a24f8267786cce",
+      "archimate_source_name": "Switch 1",
+      "archimate_target_name": "PC 12",
+      "gns3_link_id": "05ba958d-a880-4808-a62c-688be80be267",
+      "gns3_source_node_id": "182334da-b54d-4491-8c89-223ca8551ce3",
+      "gns3_target_node_id": "ff00fad1-3823-4b1e-8c95-80b19382f768"
+    },
+    {
+      "archimate_relationship_id": "id-c58649e244b5436e8e93a9de17a16237",
+      "archimate_source_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_target_id": "id-17a6b29d3d164496a62ebea46a850dd8",
+      "archimate_source_name": "Switch 1",
+      "archimate_target_name": "PC 08",
+      "gns3_link_id": "5dde8d66-5efc-478c-874e-aab8843abec2",
+      "gns3_source_node_id": "182334da-b54d-4491-8c89-223ca8551ce3",
+      "gns3_target_node_id": "22c748ae-0f7a-4dec-9b13-3dd638b9daf2"
+    },
+    {
+      "archimate_relationship_id": "id-158f7f2d9b4a4659894b9dea048f631c",
+      "archimate_source_id": "id-b979c436d63841de94b0cf5c786fd5ef",
+      "archimate_target_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_source_name": "PC 06",
+      "archimate_target_name": "Switch 1",
+      "gns3_link_id": "4b040ec2-8631-4c94-8659-48b6a15d7a26",
+      "gns3_source_node_id": "c78f5f23-0cd4-452e-bdbd-2f0a30f47fdf",
+      "gns3_target_node_id": "182334da-b54d-4491-8c89-223ca8551ce3"
+    },
+    {
+      "archimate_relationship_id": "id-39a232a1273c468eb42dec69ad8af663",
+      "archimate_source_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_target_id": "id-464ecbec9ecc40fc9eb62c4faff2e81a",
+      "archimate_source_name": "Switch 1",
+      "archimate_target_name": "PC 13",
+      "gns3_link_id": "fa9c7b11-4053-415f-aefd-be966c160be0",
+      "gns3_source_node_id": "182334da-b54d-4491-8c89-223ca8551ce3",
+      "gns3_target_node_id": "3cc21d89-eca0-42cf-b037-563dd1cfca43"
+    },
+    {
+      "archimate_relationship_id": "id-b942c3b608624273b3425f0788de902a",
+      "archimate_source_id": "id-9ff3a08f4f774f05944ed0ff3ddfc63c",
+      "archimate_target_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_source_name": "PC 02",
+      "archimate_target_name": "Switch 1",
+      "gns3_link_id": "6b5ef5b0-1c32-41a2-b86c-4efd6c09cb90",
+      "gns3_source_node_id": "3a511e39-f7ab-4f40-8107-59bb88c1fa65",
+      "gns3_target_node_id": "182334da-b54d-4491-8c89-223ca8551ce3"
+    },
+    {
+      "archimate_relationship_id": "id-c82a57b3d0bc42ab939db3c645afedac",
+      "archimate_source_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_target_id": "id-db13067c5ab248898aeb95326e64821d",
+      "archimate_source_name": "Switch 1",
+      "archimate_target_name": "PC 14",
+      "gns3_link_id": "4152f2bb-a251-498d-8e38-00238c19933a",
+      "gns3_source_node_id": "182334da-b54d-4491-8c89-223ca8551ce3",
+      "gns3_target_node_id": "0ccca965-6aeb-45c0-922c-ec8f91cb324a"
+    },
+    {
+      "archimate_relationship_id": "id-4b414e0938134bb5b7f5ab60e6124358",
+      "archimate_source_id": "id-98ce2814b95044649b0c8f61e848932c",
+      "archimate_target_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_source_name": "PC 03",
+      "archimate_target_name": "Switch 1",
+      "gns3_link_id": "f5dd4dcb-e177-45eb-8cfb-dc96a650e197",
+      "gns3_source_node_id": "8ae80fcf-f571-4ae1-b335-9b07d133f4e4",
+      "gns3_target_node_id": "182334da-b54d-4491-8c89-223ca8551ce3"
+    },
+    {
+      "archimate_relationship_id": "id-7c0bca345cf848f5a05ab81b1bd211cc",
+      "archimate_source_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_target_id": "id-f9245796041b44818d98839bb0feda85",
+      "archimate_source_name": "Switch 1",
+      "archimate_target_name": "PC 09",
+      "gns3_link_id": "c90346fa-53f2-40f5-ba12-1e1bb6b7387d",
+      "gns3_source_node_id": "182334da-b54d-4491-8c89-223ca8551ce3",
+      "gns3_target_node_id": "b3ba0c7b-c2de-4fd2-8717-1c0c013dd643"
+    },
+    {
+      "archimate_relationship_id": "id-0f6dc6713c4c4dd4a3878a9667dbd7eb",
+      "archimate_source_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_target_id": "id-ac7b2a18df364984ab62a0f8a654e316",
+      "archimate_source_name": "Switch 1",
+      "archimate_target_name": "PC 10",
+      "gns3_link_id": "eb8a56db-23e5-4d10-b109-5923f5c81c09",
+      "gns3_source_node_id": "182334da-b54d-4491-8c89-223ca8551ce3",
+      "gns3_target_node_id": "51a45714-8a4d-4bf6-a80f-e9ed3ff79c74"
+    },
+    {
+      "archimate_relationship_id": "id-8593d9ecd37648aab98d3d9b3114b1ac",
+      "archimate_source_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_target_id": "id-11d723626b794bcc9670914a67b8f1f4",
+      "archimate_source_name": "Switch 1",
+      "archimate_target_name": "PC 16",
+      "gns3_link_id": "91553b5f-8b67-498a-a8f3-244b4920b290",
+      "gns3_source_node_id": "182334da-b54d-4491-8c89-223ca8551ce3",
+      "gns3_target_node_id": "54807397-af42-4fa4-bed2-449bf0370012"
+    },
+    {
+      "archimate_relationship_id": "id-cff873f8193b484bae7843b3082f42cf",
+      "archimate_source_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_target_id": "id-148f49ddcc0c4fa081962630b1bf30df",
+      "archimate_source_name": "Switch 1",
+      "archimate_target_name": "PC 07",
+      "gns3_link_id": "dd577d3e-ed9e-4859-bb84-d05928263f05",
+      "gns3_source_node_id": "182334da-b54d-4491-8c89-223ca8551ce3",
+      "gns3_target_node_id": "d337da19-fcd8-4e4e-bcb6-f3a3355cab44"
+    },
+    {
+      "archimate_relationship_id": "id-845d43a57b9648538c180d1f30a746f0",
+      "archimate_source_id": "id-6f5aebc1ebfb46da8879b55f6e1db8a3",
+      "archimate_target_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_source_name": "PC 01",
+      "archimate_target_name": "Switch 1",
+      "gns3_link_id": "9f6f58bc-4866-47da-b370-2dc971b76df7",
+      "gns3_source_node_id": "79c900c5-a542-4d07-b010-dd91f90eefa1",
+      "gns3_target_node_id": "182334da-b54d-4491-8c89-223ca8551ce3"
+    },
+    {
+      "archimate_relationship_id": "id-da4a6af65030420f9fa1db3d7b72f726",
+      "archimate_source_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_target_id": "id-f6d7ff394e5b43fe89685d0cf6b1d640",
+      "archimate_source_name": "Switch 1",
+      "archimate_target_name": "PC 11",
+      "gns3_link_id": "45b2c8a8-22f8-4574-a303-46f026b06918",
+      "gns3_source_node_id": "182334da-b54d-4491-8c89-223ca8551ce3",
+      "gns3_target_node_id": "5748acc7-0549-47c5-971e-ea8dfa3c913b"
+    },
+    {
+      "archimate_relationship_id": "id-6e968522f3ea440a98f854541ac3a6c4",
+      "archimate_source_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_target_id": "id-931b15b8c71249ef820f85f0e9c1a3f8",
+      "archimate_source_name": "Switch 1",
+      "archimate_target_name": "PC 04",
+      "gns3_link_id": "eb938a49-107d-4143-9bdb-9ffba66d2146",
+      "gns3_source_node_id": "182334da-b54d-4491-8c89-223ca8551ce3",
+      "gns3_target_node_id": "053cd570-059c-4374-8d13-afbb0bd723bb"
+    },
+    {
+      "archimate_relationship_id": "id-165449b37c5f478dbab13990afbcd813",
+      "archimate_source_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_target_id": "id-4ba60edf7d8843019c593624c64095a0",
+      "archimate_source_name": "Switch 3",
+      "archimate_target_name": "PC 47",
+      "gns3_link_id": "a059de4c-5ede-4484-b7ca-6e213f87d95b",
+      "gns3_source_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37",
+      "gns3_target_node_id": "cf46d3c5-abd2-4316-a58d-65bf773c3494"
+    },
+    {
+      "archimate_relationship_id": "id-d2e7f786e06846bc9a8b421888566e13",
+      "archimate_source_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_target_id": "id-23c090f2acee42b18d74e42dd51b9b7d",
+      "archimate_source_name": "Switch 3",
+      "archimate_target_name": "PC 37",
+      "gns3_link_id": "88294dba-30fd-4aeb-b34f-724ad70bf742",
+      "gns3_source_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37",
+      "gns3_target_node_id": "a5ed0ec9-a126-4d4e-bb17-8f96b3b21834"
+    },
+    {
+      "archimate_relationship_id": "id-b6798741070e4609a4f64e2ed89fd601",
+      "archimate_source_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_target_id": "id-4d0ede2356014f128d485ce6ce22ad4e",
+      "archimate_source_name": "Switch 3",
+      "archimate_target_name": "PC 44",
+      "gns3_link_id": "2f06eacf-df5b-453a-a966-bf982f509838",
+      "gns3_source_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37",
+      "gns3_target_node_id": "1ba9e1a0-7010-4205-b087-d4846747c79b"
+    },
+    {
+      "archimate_relationship_id": "id-45585818db8c4fa9879a6e7af455809a",
+      "archimate_source_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_target_id": "id-d41ed79b69fc48b5a0bd1c205ece30ee",
+      "archimate_source_name": "Switch 3",
+      "archimate_target_name": "PC 40",
+      "gns3_link_id": "5425b177-ac07-44ef-9d13-6fd066629e78",
+      "gns3_source_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37",
+      "gns3_target_node_id": "f314e2cc-4914-420f-8dd7-c37015f2ba06"
+    },
+    {
+      "archimate_relationship_id": "id-c637ed82335647bd9f2d37e257373212",
+      "archimate_source_id": "id-697dd789c78b4d3db52def595e0c3bd3",
+      "archimate_target_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_source_name": "PC 38",
+      "archimate_target_name": "Switch 3",
+      "gns3_link_id": "c1722906-633f-4248-9fd8-e937f2d38ecb",
+      "gns3_source_node_id": "cc0f7325-18d9-4de2-95e4-a8c597f1ed4b",
+      "gns3_target_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37"
+    },
+    {
+      "archimate_relationship_id": "id-7e1fda43d1ee48c6ae42561c3bff9b5a",
+      "archimate_source_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_target_id": "id-c24e904ba30f4932b03cf6f069449ccf",
+      "archimate_source_name": "Switch 3",
+      "archimate_target_name": "PC 45",
+      "gns3_link_id": "9279785a-4053-4117-947e-73c84b0bb17d",
+      "gns3_source_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37",
+      "gns3_target_node_id": "b7f2f307-cd4f-4c66-8540-958674b7b69e"
+    },
+    {
+      "archimate_relationship_id": "id-3b2251304e1e41bfa47ac5287ccc59c7",
+      "archimate_source_id": "id-1ee943e18a7e4ce18ed1df6dd56391c5",
+      "archimate_target_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_source_name": "PC 34",
+      "archimate_target_name": "Switch 3",
+      "gns3_link_id": "b189013b-56ee-4f19-a735-1bd0335d9eb8",
+      "gns3_source_node_id": "4d81eac8-7c1b-40ab-9b45-509168d21d07",
+      "gns3_target_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37"
+    },
+    {
+      "archimate_relationship_id": "id-ea0979735acb4f8f8793b0196e14047d",
+      "archimate_source_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_target_id": "id-78b7c03ef1b1429e84d386fd318d3e1c",
+      "archimate_source_name": "Switch 3",
+      "archimate_target_name": "PC 46",
+      "gns3_link_id": "f0c2a3c8-e8aa-4a20-a4a9-b931be103e34",
+      "gns3_source_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37",
+      "gns3_target_node_id": "591ddf0e-74ed-4842-8e2f-2fcba5799628"
+    },
+    {
+      "archimate_relationship_id": "id-ac915df8d2c44aa7b20792fc424dacf5",
+      "archimate_source_id": "id-4fdfb13643c8489b9df203a78905d1ee",
+      "archimate_target_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_source_name": "PC 35",
+      "archimate_target_name": "Switch 3",
+      "gns3_link_id": "71d74acc-ee21-4edc-8df6-6cc9e255177a",
+      "gns3_source_node_id": "8ce18bd9-ced0-4e03-88dd-678633b74388",
+      "gns3_target_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37"
+    },
+    {
+      "archimate_relationship_id": "id-868e175ef6d64ee6905b9326f04ab6c4",
+      "archimate_source_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_target_id": "id-4d289a2591ab40eeae4cbc3626a52009",
+      "archimate_source_name": "Switch 3",
+      "archimate_target_name": "PC 41",
+      "gns3_link_id": "266c5daa-5c80-43c2-9963-a12b4accf4c6",
+      "gns3_source_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37",
+      "gns3_target_node_id": "b3b78f13-10a0-401d-a228-548ad16f5b10"
+    },
+    {
+      "archimate_relationship_id": "id-46916fe329bd467fb34672c3985105cf",
+      "archimate_source_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_target_id": "id-68b7e5d4fcce44ab8a37d64d9051a679",
+      "archimate_source_name": "Switch 3",
+      "archimate_target_name": "PC 42",
+      "gns3_link_id": "ba8c3afd-a853-438e-8998-4d357afbb615",
+      "gns3_source_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37",
+      "gns3_target_node_id": "fcef9563-0880-4b9a-919f-cf9a48923df7"
+    },
+    {
+      "archimate_relationship_id": "id-454e82c2eeb24f2482d3c19e9a451d52",
+      "archimate_source_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_target_id": "id-97f618dbe661496093409e117002f57a",
+      "archimate_source_name": "Switch 3",
+      "archimate_target_name": "PC 48",
+      "gns3_link_id": "1c6ef8cb-38bf-45aa-8d74-59302043e515",
+      "gns3_source_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37",
+      "gns3_target_node_id": "3c79107c-2cfc-421e-a19d-ac570bf9b927"
+    },
+    {
+      "archimate_relationship_id": "id-a3fe98566f084a738c5455319ee42be2",
+      "archimate_source_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_target_id": "id-cee57af759cc404b931972b239d54715",
+      "archimate_source_name": "Switch 3",
+      "archimate_target_name": "PC 39",
+      "gns3_link_id": "2b673e1c-8ab6-4774-b046-15aeb77a014c",
+      "gns3_source_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37",
+      "gns3_target_node_id": "a2835b21-365d-4e2a-9cb6-506c085a4b87"
+    },
+    {
+      "archimate_relationship_id": "id-6221976de32240a5bb240c2da47cbd08",
+      "archimate_source_id": "id-60bc90dd48434623a384c56164bd7cea",
+      "archimate_target_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_source_name": "PC 33",
+      "archimate_target_name": "Switch 3",
+      "gns3_link_id": "89195684-4110-49d5-8ca9-81969b95a63f",
+      "gns3_source_node_id": "550a8507-d487-4932-9e05-1a3db957e273",
+      "gns3_target_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37"
+    },
+    {
+      "archimate_relationship_id": "id-df32b908aaaf43838fc699910e229cfe",
+      "archimate_source_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_target_id": "id-57efffcd697445fe8ab9c87577dad5d0",
+      "archimate_source_name": "Switch 3",
+      "archimate_target_name": "PC 43",
+      "gns3_link_id": "c7825b41-d082-4ba3-87fe-a8554bea0073",
+      "gns3_source_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37",
+      "gns3_target_node_id": "bafec976-a390-4e4c-9d77-cf2f679a3ba8"
+    },
+    {
+      "archimate_relationship_id": "id-2f61508192514e12b1ef1d796c470b4b",
+      "archimate_source_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_target_id": "id-e99654ed6a0c42da8256f96262958946",
+      "archimate_source_name": "Switch 3",
+      "archimate_target_name": "PC 36",
+      "gns3_link_id": "5ad010d4-c6d1-448d-bd4b-eb5f3157649c",
+      "gns3_source_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37",
+      "gns3_target_node_id": "3dc733b4-cd94-464e-a9e1-08c331aea160"
+    },
+    {
+      "archimate_relationship_id": "id-0987fcd04f5e4cbebb3aabb139d554d4",
+      "archimate_source_id": "id-44d04787e65b41dfb9eb0d9b8f61736d",
+      "archimate_target_id": "id-cbd592d7845d4f4dba6db2addf5bf437",
+      "archimate_source_name": "Router",
+      "archimate_target_name": "Switch 3",
+      "gns3_link_id": "b68ba946-4b7f-44cc-a384-133d77189f97",
+      "gns3_source_node_id": "7b250ee0-87ee-4f85-8f26-f5f9cd306126",
+      "gns3_target_node_id": "aaf05d6d-4c92-4253-b44e-21373fb9cf37"
+    },
+    {
+      "archimate_relationship_id": "id-8cc41f7713f64332a377fe99f892aed1",
+      "archimate_source_id": "id-44d04787e65b41dfb9eb0d9b8f61736d",
+      "archimate_target_id": "id-bb0d0f4032b74291ade9e7590cbf004c",
+      "archimate_source_name": "Router",
+      "archimate_target_name": "Switch 1",
+      "gns3_link_id": "a62052e2-ed8a-4bff-9214-5d4ebc490fd7",
+      "gns3_source_node_id": "7b250ee0-87ee-4f85-8f26-f5f9cd306126",
+      "gns3_target_node_id": "182334da-b54d-4491-8c89-223ca8551ce3"
+    }
+  ]
+}
