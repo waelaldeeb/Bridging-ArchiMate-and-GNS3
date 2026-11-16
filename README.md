@@ -98,3 +98,11 @@ These tests assess source-model validity and structural topology correspondence.
 ## Reproduction Limitations
 
 Reproduction of GNS3 topology generation depends on the locally installed device templates, virtual-machine images, and GNS3 environment. The updated parser's additional input-validation checks have been evaluated offline; full live GNS3 generation using the updated version remains to be confirmed.
+
+### Source-to-Target Traceability
+
+The `src/A2G_52_Traceability.py` implementation extends the transformation pipeline with automatic source-to-target identifier recording. During GNS3 project generation, it captures ArchiMate element identifiers and their corresponding GNS3 node identifiers, together with ArchiMate relationship identifiers and generated GNS3 link identifiers.
+
+The `results/A2G_AutoGen_20261029_065105_traceability.json` file contains the recorded mappings for the 54-node experiment, including 54 node records and 53 physical-link records.
+
+The traceability artifact was generated on 29 October 2026. It belongs to a separate GNS3 generation run from the previously published structural verification report. The two reports should not be interpreted as outputs of the same project instance.
